@@ -15,6 +15,7 @@ const { buildLogger } = require('./plugins')
 
 const logger = buildLogger('app.js')
 logger.log('Hello')
+logger.error('Hello error')
 
 // token de acceso
 // Publicas
