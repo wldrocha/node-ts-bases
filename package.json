@@ -14,9 +14,12 @@
   "author": "Fernando Herrera",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.5.1",
     "@types/uuid": "^9.0.2",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "nodemon": "^3.0.1",
     "supertest": "^7.0.0",
