@@ -8,7 +8,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "dev": "nodemon",
-    "build": "rimraf ./dist && tsc",
+    "build": "npm run test && rimraf ./dist && tsc",
     "start": "npm run build && node dist/app.js"
   },
   "author": "Fernando Herrera",
@@ -30,6 +30,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "get-age": "^1.0.1",
+    "rimraf": "^5.0.7",
     "uuid": "^9.0.0",
     "winston": "^3.10.0"
   },
